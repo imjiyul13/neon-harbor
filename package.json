@@ -1,0 +1,13 @@
+{
+  "name": "neon-harbor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GTA 네온 하버 ONLINE — 게임 + 멀티플레이 서버 (Cloudflare Worker + Durable Objects SQLite)",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.158.0"
+  }
+}
